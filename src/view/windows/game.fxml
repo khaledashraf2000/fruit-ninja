@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" id="game-anchor" fx:id="gameCanvas" prefHeight="600.0"
+            prefWidth="1070.0" xmlns="http://javafx.com/javafx/8.0.171"
+            fx:controller="view.controllers.GameController">
+    <children>
+        <Label fx:id="currentScore" layoutX="14.0" layoutY="14.0" style="-fx-text-fill: yellow;" text="Score: 0"/>
+        <Label fx:id="maxScore" layoutX="14.0" layoutY="72.0" style="-fx-text-fill: yellow;"/>
+        <Label fx:id="timerLabel" layoutX="488.0" layoutY="14.0" style="-fx-text-fill: yellow;" text="00:00"/>
+        <ImageView fx:id="lives" fitHeight="88.0" fitWidth="152.0" layoutX="904.0" layoutY="19.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@../resources/lives3.png"/>
+            </image>
+        </ImageView>
+    </children>
+    <stylesheets>
+        <URL value="@../resources/style.css"/>
+    </stylesheets>
+</AnchorPane>

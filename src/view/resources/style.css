@@ -1,0 +1,28 @@
+#main-menu-anchor {
+    -fx-background-image: url('mainmenu.png');
+}
+
+#game-anchor {
+    -fx-background-image: url('bg.png');
+}
+
+#game-over-anchor {
+    -fx-background-image: url('bg.png');
+}
+
+
+
+@font-face {
+    font-family: "Gang of Three";
+    src: url("go3v2.ttf");
+}
+
+.text {
+    -fx-font-family: "Gang of Three";
+    -fx-font-size: 40;
+}
+
+.text {
+    -fx-font-family: "Gang of Three";
+    -fx-font-size: 40;
+}
